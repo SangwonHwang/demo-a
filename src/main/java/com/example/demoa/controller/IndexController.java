@@ -8,6 +8,6 @@ public class IndexController {
 
     @GetMapping("/")
     public String index() {
-        return "Demo A 입니다.";
+        return "CodeDeploy로 배포된 Demo A 입니다.";
     }
 }
