@@ -20,4 +20,4 @@ else
 fi
 
 cd /var/www/demo-a/build/libs
-nohup java -jar demo-a-0.0.1-SNAPSHOT.jar > /var/www/demo-a/nohup.out 2>&1 &
+nohup java -jar demo-a-0.0.1-SNAPSHOT.jar /dev/null 2> /dev/null < /dev/null &
