@@ -4,6 +4,7 @@ echo '============================'
 
 source /home/ec2-user/.bash_profile
 cd /var/www/demo-a
+chmod 755 gradlew
 ./gradlew clean build
 cd /var/www/demo-a/build/libs
 nohup java -jar demo-a-0.0.1-SNAPSHOT.jar &
